@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hak Setha | Portfolio</title>
+    <meta name="description" content="Portfolio of Hak Setha, Information Technology Engineering Graduate and Developer.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+
+    <nav>
+        <div class="nav-content">
+            <a href="#" class="logo">Portfolio</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="about" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Hak Setha</h1>
+                <h2>IT Engineering Graduate</h2>
+                <p class="bio">
+                    Highly motivated to acquire new skills and adapt to evolving development environments. 
+                    Experienced in Web, Mobile, and Game development.
+                </p>
+                <div class="contact-list">
+                    <a href="mailto:haksetha061@gmail.com" class="contact-item">
+                        <span>✉️</span> haksetha061@gmail.com
+                    </a>
+                    <a href="tel:061648622" class="contact-item">
+                        <span>📞</span> 061 648 622
+                    </a>
+                    <span class="contact-item">
+                        <span>📍</span> Phnom Penh, Cambodia
+                    </span>
+                    <a href="https://github.com/Setha-idk2" target="_blank" class="contact-item">
+                        <span>⚫</span> github.com/Setha-idk2
+                    </a>
+                </div>
+                <div class="hero-buttons">
+                    <a href="https://mail.google.com/mail/?view=cm&to=haksetha061@gmail.com" target="_blank" class="btn primary">Contact</a>
+                    <a href="#projects" class="btn secondary">View Projects</a>
+                </div>
+            </div>
+            <div class="profile-img-container">
+                <img src="profile_picture.jpg" alt="Hak Setha" class="profile-img" onerror="this.style.display='none'">
+            </div>
+        </div>
+    </header>
+
+    <section id="experience" class="section">
+        <div class="section-container">
+            <div class="exp-edu-grid">
+
+                <!-- Work Experience -->
+                <div class="exp-edu-col">
+                    <h2 class="col-title">💼 Work Experience</h2>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-date">2025 - 2026</div>
+                            <div class="timeline-content">
+                                <h3>Part-time Assistant</h3>
+                                <h4>National Incubation Center of Cambodia (NICC)</h4>
+                                <ul>
+                                    <li>Setup equipment for meetings and events</li>
+                                    <li>IT Support and General support</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Education -->
+                <div class="exp-edu-col">
+                    <h2 class="col-title">🎓 Education</h2>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-date">2022 - 2026</div>
+                            <div class="timeline-content">
+                                <h3>Information Technology Engineering (ITE)</h3>
+                                <h4>Royal University of Phnom Penh</h4>
+                                <p>Undergraduate degree focusing on software development and IT infrastructure.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">2015 - 2022</div>
+                            <div class="timeline-content">
+                                <h3>High School</h3>
+                                <h4>Hun Sen Ou Reang Ov High School</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="section-container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Web Development</h3>
+                    <p>Laravel, Nuxt.js, HTML, CSS, JS</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Mobile Development</h3>
+                    <p>Flutter, Android Kotlin</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Game Development</h3>
+                    <p>Unity, C#</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Other Skills</h3>
+                    <p>Prompt Engineering (AI), Fluent English, Quick Learner</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="section-container">
+            <h2 class="section-title">Featured Projects</h2>
+
+            <div class="project-group">
+                <h3 class="project-group-title">🚀 Recent Projects</h3>
+                <div id="new-projects-container" class="projects-grid"></div>
+            </div>
+
+            <div class="project-group">
+                <h3 class="project-group-title">📦 Archive Projects</h3>
+                <div id="old-projects-container" class="projects-grid"></div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Hak Setha. All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://github.com/Setha-idk2" target="_blank">GitHub (New)</a>
+            <a href="https://github.com/Setha-idk" target="_blank">GitHub (Old)</a>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
